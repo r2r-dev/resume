@@ -1,0 +1,8 @@
+#+HTML: <div class="A4"><section class="sheet">
+
+* @@html:<div class="name-red">@@ARTUR@@html:</div>@@ @@html:<div class="name-we" style="display: inline-block;">@@STACHECKI@@html:</div>@@
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: header
+  :ID:       6e48a07a-576e-483b-8b16-8f0ab5fc84d0
+  :END:
+

@@ -1,0 +1,260 @@
+#+TITLE: Artur Stachecki
+#+TAGS: @devops @nix @bazel @k8s @buildeng 
+#+SETUPFILE: include/html.conf.org
+#+INCLUDE: include/html-header.org
+* DONE Contact
+  CLOSED: [2017-04-03 Mon 09:45]
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: contact
+   :ID:       f1916c2c-768d-48ae-b821-5e9becd2e043
+   :END:
+** photo
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: photo
+   :ID:       85219053-b7f6-468a-8c4d-8cff71c0e511
+   :END:
+** contact@stachecki.me
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: email
+   :ID:       3e6727b1-1c2c-43bd-bcd2-9dc1f163d8b3
+   :END:
+** stachecki.me
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: web
+   :ID:       1d3f6db8-935a-4611-86b3-f9ebad319c86
+   :END:
+** r-tur.pro
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: web
+   :ID:       e70a091b-c7b5-4a7a-927d-14ab8d0cb938
+   :END:
+** github.com/astachecki
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: github
+   :ID:       8f6a69c3-8d20-49bc-a9fc-10424bb6101a
+   :END:
+** github.com/r-tr
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: github
+   :ID:       031fbf25-9144-42da-a64b-cbb18a1b9ab7
+   :END:
+* Experience
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: experience
+  :ID:       4e730dae-a8b1-4887-b9b3-0f8e9a584989
+  :END:
+** DONE Expert IT Developer - Nordea                              :bazel:nix:k8s:gitops:
+   CLOSED: [2017-04-12 Wed 12:07]
+   :PROPERTIES:
+   :ID:       b0191cfc-079e-4067-ad80-beaa49482d64
+   :END:
+*** Aug 2017 - Present • 1 yr 10 mos 
+    :PROPERTIES:
+    :ID:       7763874e-a7b1-48b4-83ce-0bc8af74d989
+    :END:
+    + Developed and integrated *Ansible* modules tailored for deployments within Hadoop ecosystem.
+    + Designined and developed software release process for Hadoop based applications using *Jenkins*, *Ansible*
+    + Set-up, deployed, and administered numerous, Highly-Available *OpenShift* clusters.
+    + Designed processes and created ecosystem for reproducible, *microservices* application development, testing, deployment, continuous integration using *Bazel*, *Kubernetes*, *Nix*, *jsonnet*, *Argo*, *sops*, *gitops*, *monorepo*, *distroless containers*, *BitBucket*
+    + Researched & Developed tools for Engineers to aid day-to-day work in restricted (network and policy-wise) corporate environment.
+    + Successfully rolled out fully reproducible development environments for engineers using *nix-shell*, customized *NixOS* distribution, offline *NixOS* installer and containerized *static nix* for cluster deployments.
+    + Conducted, trainings and workshops for engineers on topics related to *containerization*, *container platforms*, *build engineering*, *release engineering*, *programmable infrastructure*.
+    + Developed a framework for reproducible training environments based on *NixOS*, *IPXE*, *Jupyter*.
+    + Provided tooling and training enabling teams to conduct build & release activities without DevOps engineers.
+    + Continuously involved myself in promotion of DevOps culture which played significant role in *development of self-sustainable, cross-functional teams* and individuals.
+    + Started work on *Variability Modelling* and *Software Production Lines* in context of software delivery and deployment. Expected result is an expert system further aiding generation of cusomized workflows and deployments without a need for DevOps engineer.
+** DONE R&D Engineer Software - Adva Optical Networking :python:java:jenkins:git:aws:docker:
+    CLOSED: [2017-04-13 Thu 07:36]
+    :PROPERTIES:
+    :ID:       e6dbdc90-48eb-4e23-b1e0-b6de6aa0e3af
+    :END:
+*** May 2014 – Aug 2017 • 3 yrs 4 mos
+    :PROPERTIES:
+    :ID:       647dbb42-b47b-452d-9d3d-095ec9bc56fa
+    :END:
+    + Took an active part in a development process of a modular integration and delivery pipeline architecture for a major company project, utilizing technologies such as *Jenkins*, *Phabricator*, *Maven*, *Ant*, *CMake*, *Artifactory*, *AWS EC2*.
+    + Designed and implemented original, highly generic and extensible framework for completely automated software promotion, releasing, delivery, packaging, and documentation of any product and its component parts on a binary and source code level.
+    + Development of a set of software libraries streamlining communication with all of the internally used applications, at the same time enabling rapid development of new tools for automation.
+    + Construction of a tool which allows state visualization of commits across hundreds of repositories in a context of multiple shared releases - combining metadata related gathered from external software life-cycle management systems.
+    + Created multiple extensions and plugins for internally used build systems such as *Maven* or *Jenkins*.
+    + Undertook responsibility in processes related to designing, creation, and monitoring of local and cloud-based infrastructure with regard to *infrastructure as code* principles.
+** DONE Student R&D Software Production - Adva Optical Networking :php:bash:svn:python:docker:
+   CLOSED: [2017-04-13 Thu 07:36]
+   :PROPERTIES:
+   :ID:       6a412e05-3432-4629-8c96-8b1dd483db3e
+   :END:
+*** Mar 2012 – May 2014 • 2 yrs 3 mos 
+    :PROPERTIES:
+    :ID:       7efcce5b-1e15-457f-9c43-1b6842d78906
+    :END:
+    + *Unix*-based systems provisioning, configuration, and administration.
+    + Development of processes and tools used in waterfall-based software production cycle.
+    + Management of version control systems *Subversion*, *GIT*, as well as serving support and training for development teams.
+    + Co-creation and deployment of internal release documentation system.
+    + Implementation and integration of tools and processes supplying three major project teams with means for code review and static *code analysis*.
+    + Development of extensions and plugins for internally deployed systems, such as *Jenkins* or *Phabricator* to suit company-specific work-flows and processes.
+    + Creation of a self-contained, installable development environment based on Cygwin which eases code review process for developers using Windows machines
+    + Development of fully versioned, streamlined and reproducible development environment used by developers, testers and automated continuous integration systems based on *Docker*, *Vagrant* and *VirtualBox* systems.
+    + Creation and utilization tools monolithic Subversion repository conversion into a set of small *Git* repositories, representing components of an entire project.
+* Education
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: education
+  :ID:       08f08b44-0c9b-4291-9058-1e6b06439619
+  :END:
+** TODO Gdansk University of Technology
+   :PROPERTIES:
+   :ID:       8e222384-d4d3-4a05-8d92-a4ff03f54789
+   :END:
+*** Master of Engineering - Electronics, Telecommunications and Informatics Faculty
+    :PROPERTIES:
+    :ID:       78c2934b-9df3-4796-a17a-5d736cb85716
+    :END:
+    + Thesis: /"Evaluation and analysis of modern solutions for automated deployment, scaling and management of containerized applications"/.
+    + Tech: Nix, NixOS, Docker Swarm, Kubernetes, Openshift, Jupyter.
+    + Grade: Ongoing
+
+** DONE Gdansk University of Technology
+   CLOSED: [2019-05-27 Mon 13:59]
+   :PROPERTIES:
+   :ID:       13730820-f08d-4ef0-81ff-62b87bb02c33
+   :END:
+*** Bachelor of Engineering - Electronics, Telecommunications and Informatics Faculty
+    :PROPERTIES:
+    :ID:       5f7481d8-6b56-465b-b667-b7a9d8c026d9
+    :END:
+    + Thesis: /"Graphical representation system of the physical and logical Local Area Network structure"/.
+    + Tech: Python, CSS3, HTML5, vis.js, Docker Compose, Redis 
+    + Grade: Upper Second-Class Honours
+
+* Skills
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: skills
+  :ID:       912e18f3-c343-44b2-96d8-a4cd13284b5a
+  :END:
+** DONE Programming
+   CLOSED: [2017-04-03 Mon 09:40]
+   :PROPERTIES:
+   :ID:       ecba25eb-c97d-4d7c-ace0-08d37cb24bec
+   :END:
+*** Java
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-40
+  :ID:       2bdcddbd-7617-46c1-9f88-cb54742d67d9
+  :END:
+*** C#
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-40
+  :ID:       540cffd5-46c2-4204-98d0-8714b418647e
+  :END:
+*** Python
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :ID:       98edad10-cfd0-4f83-b601-367cccc7eb91
+  :END:
+*** Bash
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :ID:       43bcf136-3800-4cce-99f3-2e0f6968b031
+  :END:
+** TODO Tools
+   :PROPERTIES:
+   :ID:       ec473b6d-dc5c-466e-bea0-0ef8448c9c3e
+   :END:
+*** Git
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :ID:       8492b1a4-3c38-4e3e-9a28-96b5fb5d3b1b
+  :END:
+*** Docker
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :ID:       51444ac4-4c5a-4d31-b686-bff7eb7a4c33
+  :END:
+*** Kubernetes
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :ID:       80b47441-2c80-4a44-8eaf-61847b4c47d8
+  :END:
+*** Emacs
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-60
+  :ID:       1fca82be-ce8c-4770-9891-616f01f067c1
+  :END:
+*** Bazel
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-80
+  :ID:       27bf63d5-246a-4bad-a460-ee14996beb94
+  :END:
+*** Nix/NixOS
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-40
+  :ID:       cb30ff3f-e35e-4f3a-8a76-e76cfe7aa1a8
+  :END:
+* DONE Languages
+  CLOSED: [2017-04-03 Mon 11:11]
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: languages
+  :ID:       be41201f-278f-499c-af3c-8b891b06fb9d
+  :END:
+*** English
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: percent-80
+    :ID:       c68462d9-3d1d-4c2c-a7d2-0a297f18e004
+    :END:
+*** Polish
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: percent-100
+    :ID:       90582e3e-00e0-400c-a3f2-dd4272f8a4b9
+    :END:
+
+#+INCLUDE: include/pl.org :minlevel 1
+* TODO Intrests
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: interests
+  :ID:       067f128d-8143-4a70-9cf5-697f4b50b50d
+  :END:
+*** Operating Systems
+    :PROPERTIES:
+    :ID:       f9d52d39-8399-430a-8218-1b543719f986
+    :END:
+*** Computer Networks
+    :PROPERTIES:
+    :ID:       814464c7-891e-4975-b050-1c2aec6c818c
+    :END:
+*** Software Development
+    :PROPERTIES:
+    :ID:       becb4f3f-6b59-412c-b1f9-fa123bc06953
+    :END:
+*** Reverse Engineering
+    :PROPERTIES:
+    :ID:       af8ecbdf-8ad9-4fcb-8de5-3548f9ea4caf
+    :END:
+*** Psychology & Leadership
+    :PROPERTIES:
+    :ID:       b1ac779d-c6c4-4428-8764-5c5aa4dbbd38
+    :END:
+*** 70s Prog Rock and beyond
+    :PROPERTIES:
+    :ID:       82debf55-baf3-47cc-b646-79c6bbc1504b
+    :END:
+*** Top 3 endurance sports
+    :PROPERTIES:
+    :ID:       374f8a8d-021b-44c7-8dca-9209a45459a1
+    :END:
+* TODO Courses
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: courses
+  :ID:       d712bd9d-8fd3-434d-8ec4-f661dce850d5
+  :END:
+*** RedHat • OpenShift Administration
+    :PROPERTIES:
+    :ID:       6bd5cc32-d856-4e10-b45a-7472388ea752
+    :END:
+*** CNCF   • Kubernetes Administrator
+    :PROPERTIES:
+    :ID:       04477d78-5c94-40da-9b6d-b43c239263fe
+    :END:
+*** CNCF   • Kubernetes Application Developer
+    :PROPERTIES:
+    :ID:       12d93fdf-14b8-41bd-91a4-fc140cbbe0fe
+    :END:

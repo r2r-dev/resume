@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-27 Mon 21:28 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Artur Stachecki</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="qwerty" />
+<meta name="description" content="a personal page for Artur Stachecki - jack of all trades, quite good at some. entropic neutral."
+ />
+<meta name="keywords" content="r-tur, stachecki, artur stachecki, build-eng, devops, bazel, nix, emacs." />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="shortcut icon" href="https://r-tur.pro/favicon.ico" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700,500,400,300|Roboto:700,500,400,300" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="./static/resume.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div class="A4"><section class="sheet">
+
+<div id="outline-container-org7d5cae6" class="outline-2 header">
+<h2 id="org7d5cae6"><a id="ID-6e48a07a-576e-483b-8b16-8f0ab5fc84d0"></a><div class="name-red">ARTUR</div> <div class="name-we" style="display: inline-block;">STACHECKI</div></h2>
+<div class="outline-text-2" id="text-org7d5cae6">
+</div>
+</div>
+<div id="outline-container-org0ed403a" class="outline-2 contact">
+<h2 id="org0ed403a"><a id="ID-f1916c2c-768d-48ae-b821-5e9becd2e043"></a>Contact</h2>
+<div class="outline-text-2" id="text-org0ed403a">
+</div>
+<div id="outline-container-orgdadc633" class="outline-3 photo">
+<h3 id="orgdadc633"><a id="ID-85219053-b7f6-468a-8c4d-8cff71c0e511"></a>photo</h3>
+<div class="outline-text-3" id="text-orgdadc633">
+</div>
+</div>
+<div id="outline-container-org9ca194a" class="outline-3 email">
+<h3 id="org9ca194a"><a id="ID-3e6727b1-1c2c-43bd-bcd2-9dc1f163d8b3"></a>contact@stachecki.me</h3>
+<div class="outline-text-3" id="text-org9ca194a">
+</div>
+</div>
+<div id="outline-container-orga66f99d" class="outline-3 web">
+<h3 id="orga66f99d"><a id="ID-1d3f6db8-935a-4611-86b3-f9ebad319c86"></a>stachecki.me</h3>
+<div class="outline-text-3" id="text-orga66f99d">
+</div>
+</div>
+<div id="outline-container-org73746db" class="outline-3 web">
+<h3 id="org73746db"><a id="ID-e70a091b-c7b5-4a7a-927d-14ab8d0cb938"></a>r-tur.pro</h3>
+<div class="outline-text-3" id="text-org73746db">
+</div>
+</div>
+<div id="outline-container-org367e6a6" class="outline-3 github">
+<h3 id="org367e6a6"><a id="ID-8f6a69c3-8d20-49bc-a9fc-10424bb6101a"></a>github.com/astachecki</h3>
+<div class="outline-text-3" id="text-org367e6a6">
+</div>
+</div>
+<div id="outline-container-orgfd3e1aa" class="outline-3 github">
+<h3 id="orgfd3e1aa"><a id="ID-031fbf25-9144-42da-a64b-cbb18a1b9ab7"></a>github.com/r-tr</h3>
+<div class="outline-text-3" id="text-orgfd3e1aa">
+</div>
+</div>
+</div>
+<div id="outline-container-org43562c2" class="outline-2 experience">
+<h2 id="org43562c2"><a id="ID-4e730dae-a8b1-4887-b9b3-0f8e9a584989"></a>Experience</h2>
+<div class="outline-text-2" id="text-org43562c2">
+</div>
+<div id="outline-container-orgf53a5c8" class="outline-3">
+<h3 id="orgf53a5c8"><a id="ID-b0191cfc-079e-4067-ad80-beaa49482d64"></a>Expert IT Developer - Nordea</h3>
+<div class="outline-text-3" id="text-orgf53a5c8">
+</div>
+<div id="outline-container-org45d0ab6" class="outline-4">
+<h4 id="org45d0ab6"><a id="ID-7763874e-a7b1-48b4-83ce-0bc8af74d989"></a>Aug 2017 - Present • 1 yr 10 mos</h4>
+<div class="outline-text-4" id="text-org45d0ab6">
+<ul class="org-ul">
+<li>Developed and integrated <b>Ansible</b> modules tailored for deployments within Hadoop ecosystem.</li>
+<li>Designined and developed software release process for Hadoop based applications using <b>Jenkins</b>, <b>Ansible</b></li>
+<li>Set-up, deployed, and administered numerous, Highly-Available <b>OpenShift</b> clusters.</li>
+<li>Designed processes and created ecosystem for reproducible, <b>microservices</b> application development, testing, deployment, continuous integration using <b>Bazel</b>, <b>Kubernetes</b>, <b>Nix</b>, <b>jsonnet</b>, <b>Argo</b>, <b>sops</b>, <b>gitops</b>, <b>monorepo</b>, <b>distroless containers</b>, <b>BitBucket</b></li>
+<li>Researched &amp; Developed tools for Engineers to aid day-to-day work in restricted (network and policy-wise) corporate environment.</li>
+<li>Successfully rolled out fully reproducible development environments for engineers using <b>nix-shell</b>, customized <b>NixOS</b> distribution, offline <b>NixOS</b> installer and containerized <b>static nix</b> for cluster deployments.</li>
+<li>Conducted, trainings and workshops for engineers on topics related to <b>containerization</b>, <b>container platforms</b>, <b>build engineering</b>, <b>release engineering</b>, <b>programmable infrastructure</b>.</li>
+<li>Developed a framework for reproducible training environments based on <b>NixOS</b>, <b>IPXE</b>, <b>Jupyter</b>.</li>
+<li>Provided tooling and training enabling teams to conduct build &amp; release activities without DevOps engineers.</li>
+<li>Continuously involved myself in promotion of DevOps culture which played significant role in <b>development of self-sustainable, cross-functional teams</b> and individuals.</li>
+<li>Started work on <b>Variability Modelling</b> and <b>Software Production Lines</b> in context of software delivery and deployment. Expected result is an expert system further aiding generation of cusomized workflows and deployments without a need for DevOps engineer.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge375c72" class="outline-3">
+<h3 id="orge375c72"><a id="ID-e6dbdc90-48eb-4e23-b1e0-b6de6aa0e3af"></a>R&amp;D Engineer Software - Adva Optical Networking</h3>
+<div class="outline-text-3" id="text-orge375c72">
+</div>
+<div id="outline-container-org6395cc1" class="outline-4">
+<h4 id="org6395cc1"><a id="ID-647dbb42-b47b-452d-9d3d-095ec9bc56fa"></a>May 2014 – Aug 2017 • 3 yrs 4 mos</h4>
+<div class="outline-text-4" id="text-org6395cc1">
+<ul class="org-ul">
+<li>Took an active part in a development process of a modular integration and delivery pipeline architecture for a major company project, utilizing technologies such as <b>Jenkins</b>, <b>Phabricator</b>, <b>Maven</b>, <b>Ant</b>, <b>CMake</b>, <b>Artifactory</b>, <b>AWS EC2</b>.</li>
+<li>Designed and implemented original, highly generic and extensible framework for completely automated software promotion, releasing, delivery, packaging, and documentation of any product and its component parts on a binary and source code level.</li>
+<li>Development of a set of software libraries streamlining communication with all of the internally used applications, at the same time enabling rapid development of new tools for automation.</li>
+<li>Construction of a tool which allows state visualization of commits across hundreds of repositories in a context of multiple shared releases - combining metadata related gathered from external software life-cycle management systems.</li>
+<li>Created multiple extensions and plugins for internally used build systems such as <b>Maven</b> or <b>Jenkins</b>.</li>
+<li>Undertook responsibility in processes related to designing, creation, and monitoring of local and cloud-based infrastructure with regard to <b>infrastructure as code</b> principles.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4d7feaa" class="outline-3">
+<h3 id="org4d7feaa"><a id="ID-6a412e05-3432-4629-8c96-8b1dd483db3e"></a>Student R&amp;D Software Production - Adva Optical Networking</h3>
+<div class="outline-text-3" id="text-org4d7feaa">
+</div>
+<div id="outline-container-org192cc71" class="outline-4">
+<h4 id="org192cc71"><a id="ID-7efcce5b-1e15-457f-9c43-1b6842d78906"></a>Mar 2012 – May 2014 • 2 yrs 3 mos</h4>
+<div class="outline-text-4" id="text-org192cc71">
+<ul class="org-ul">
+<li><b>Unix</b>-based systems provisioning, configuration, and administration.</li>
+<li>Development of processes and tools used in waterfall-based software production cycle.</li>
+<li>Management of version control systems <b>Subversion</b>, <b>GIT</b>, as well as serving support and training for development teams.</li>
+<li>Co-creation and deployment of internal release documentation system.</li>
+<li>Implementation and integration of tools and processes supplying three major project teams with means for code review and static <b>code analysis</b>.</li>
+<li>Development of extensions and plugins for internally deployed systems, such as <b>Jenkins</b> or <b>Phabricator</b> to suit company-specific work-flows and processes.</li>
+<li>Creation of a self-contained, installable development environment based on Cygwin which eases code review process for developers using Windows machines</li>
+<li>Development of fully versioned, streamlined and reproducible development environment used by developers, testers and automated continuous integration systems based on <b>Docker</b>, <b>Vagrant</b> and <b>VirtualBox</b> systems.</li>
+<li>Creation and utilization tools monolithic Subversion repository conversion into a set of small <b>Git</b> repositories, representing components of an entire project.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org66e308e" class="outline-2 education">
+<h2 id="org66e308e"><a id="ID-08f08b44-0c9b-4291-9058-1e6b06439619"></a>Education</h2>
+<div class="outline-text-2" id="text-org66e308e">
+</div>
+<div id="outline-container-org362773b" class="outline-3">
+<h3 id="org362773b"><a id="ID-8e222384-d4d3-4a05-8d92-a4ff03f54789"></a>Gdansk University of Technology</h3>
+<div class="outline-text-3" id="text-org362773b">
+</div>
+<div id="outline-container-orgb93efc5" class="outline-4">
+<h4 id="orgb93efc5"><a id="ID-78c2934b-9df3-4796-a17a-5d736cb85716"></a>Master of Engineering - Electronics, Telecommunications and Informatics Faculty</h4>
+<div class="outline-text-4" id="text-orgb93efc5">
+<ul class="org-ul">
+<li>Thesis: <i>"Evaluation and analysis of modern solutions for automated deployment, scaling and management of containerized applications"</i>.</li>
+<li>Tech: Nix, NixOS, Docker Swarm, Kubernetes, Openshift, Jupyter.</li>
+<li>Grade: Ongoing</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcd8471e" class="outline-3">
+<h3 id="orgcd8471e"><a id="ID-13730820-f08d-4ef0-81ff-62b87bb02c33"></a>Gdansk University of Technology</h3>
+<div class="outline-text-3" id="text-orgcd8471e">
+</div>
+<div id="outline-container-org112a79c" class="outline-4">
+<h4 id="org112a79c"><a id="ID-5f7481d8-6b56-465b-b667-b7a9d8c026d9"></a>Bachelor of Engineering - Electronics, Telecommunications and Informatics Faculty</h4>
+<div class="outline-text-4" id="text-org112a79c">
+<ul class="org-ul">
+<li>Thesis: <i>"Graphical representation system of the physical and logical Local Area Network structure"</i>.</li>
+<li>Tech: Python, CSS3, HTML5, vis.js, Docker Compose, Redis</li>
+<li>Grade: Upper Second-Class Honours</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb5de3f6" class="outline-2 skills">
+<h2 id="orgb5de3f6"><a id="ID-912e18f3-c343-44b2-96d8-a4cd13284b5a"></a>Skills</h2>
+<div class="outline-text-2" id="text-orgb5de3f6">
+</div>
+<div id="outline-container-org68ad2d2" class="outline-3">
+<h3 id="org68ad2d2"><a id="ID-ecba25eb-c97d-4d7c-ace0-08d37cb24bec"></a>Programming</h3>
+<div class="outline-text-3" id="text-org68ad2d2">
+</div>
+<div id="outline-container-org57792da" class="outline-4 percent-40">
+<h4 id="org57792da"><a id="ID-2bdcddbd-7617-46c1-9f88-cb54742d67d9"></a>Java</h4>
+<div class="outline-text-4" id="text-org57792da">
+</div>
+</div>
+<div id="outline-container-org98d78e0" class="outline-4 percent-40">
+<h4 id="org98d78e0"><a id="ID-540cffd5-46c2-4204-98d0-8714b418647e"></a>C#</h4>
+<div class="outline-text-4" id="text-org98d78e0">
+</div>
+</div>
+<div id="outline-container-org9e7b65b" class="outline-4 percent-60">
+<h4 id="org9e7b65b"><a id="ID-98edad10-cfd0-4f83-b601-367cccc7eb91"></a>Python</h4>
+<div class="outline-text-4" id="text-org9e7b65b">
+</div>
+</div>
+<div id="outline-container-orgcb6fb8b" class="outline-4 percent-80">
+<h4 id="orgcb6fb8b"><a id="ID-43bcf136-3800-4cce-99f3-2e0f6968b031"></a>Bash</h4>
+<div class="outline-text-4" id="text-orgcb6fb8b">
+</div>
+</div>
+</div>
+<div id="outline-container-orgab034cb" class="outline-3">
+<h3 id="orgab034cb"><a id="ID-ec473b6d-dc5c-466e-bea0-0ef8448c9c3e"></a>Tools</h3>
+<div class="outline-text-3" id="text-orgab034cb">
+</div>
+<div id="outline-container-org45120c3" class="outline-4 percent-80">
+<h4 id="org45120c3"><a id="ID-8492b1a4-3c38-4e3e-9a28-96b5fb5d3b1b"></a>Git</h4>
+<div class="outline-text-4" id="text-org45120c3">
+</div>
+</div>
+<div id="outline-container-org3408634" class="outline-4 percent-80">
+<h4 id="org3408634"><a id="ID-51444ac4-4c5a-4d31-b686-bff7eb7a4c33"></a>Docker</h4>
+<div class="outline-text-4" id="text-org3408634">
+</div>
+</div>
+<div id="outline-container-org5482a52" class="outline-4 percent-60">
+<h4 id="org5482a52"><a id="ID-80b47441-2c80-4a44-8eaf-61847b4c47d8"></a>Kubernetes</h4>
+<div class="outline-text-4" id="text-org5482a52">
+</div>
+</div>
+<div id="outline-container-orgc0ba078" class="outline-4 percent-60">
+<h4 id="orgc0ba078"><a id="ID-1fca82be-ce8c-4770-9891-616f01f067c1"></a>Emacs</h4>
+<div class="outline-text-4" id="text-orgc0ba078">
+</div>
+</div>
+<div id="outline-container-org65074d5" class="outline-4 percent-80">
+<h4 id="org65074d5"><a id="ID-27bf63d5-246a-4bad-a460-ee14996beb94"></a>Bazel</h4>
+<div class="outline-text-4" id="text-org65074d5">
+</div>
+</div>
+<div id="outline-container-org85b8b7e" class="outline-4 percent-40">
+<h4 id="org85b8b7e"><a id="ID-cb30ff3f-e35e-4f3a-8a76-e76cfe7aa1a8"></a>Nix/NixOS</h4>
+<div class="outline-text-4" id="text-org85b8b7e">
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org97c883c" class="outline-2 languages">
+<h2 id="org97c883c"><a id="ID-be41201f-278f-499c-af3c-8b891b06fb9d"></a>Languages</h2>
+<div class="outline-text-2" id="text-org97c883c">
+</div>
+<div id="outline-container-org7940b26" class="outline-4 percent-80">
+<h4 id="org7940b26"><a id="ID-c68462d9-3d1d-4c2c-a7d2-0a297f18e004"></a>English</h4>
+<div class="outline-text-4" id="text-org7940b26">
+</div>
+</div>
+<div id="outline-container-orgdea40a2" class="outline-4 percent-100">
+<h4 id="orgdea40a2"><a id="ID-90582e3e-00e0-400c-a3f2-dd4272f8a4b9"></a>Polish</h4>
+<div class="outline-text-4" id="text-orgdea40a2">
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc158086" class="outline-2 footer">
+<h2 id="orgc158086">Footer</h2>
+<div class="outline-text-2" id="text-orgc158086">
+<p>
+I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. no. 133, item 883)
+</p>
+</div>
+</div>
+<div id="outline-container-orgd57b2d5" class="outline-2 interests">
+<h2 id="orgd57b2d5"><a id="ID-067f128d-8143-4a70-9cf5-697f4b50b50d"></a>Intrests</h2>
+<div class="outline-text-2" id="text-orgd57b2d5">
+</div>
+<div id="outline-container-org4fd82b9" class="outline-4">
+<h4 id="org4fd82b9"><a id="ID-f9d52d39-8399-430a-8218-1b543719f986"></a>Operating Systems</h4>
+<div class="outline-text-4" id="text-org4fd82b9">
+</div>
+</div>
+<div id="outline-container-orgb6f425c" class="outline-4">
+<h4 id="orgb6f425c"><a id="ID-814464c7-891e-4975-b050-1c2aec6c818c"></a>Computer Networks</h4>
+<div class="outline-text-4" id="text-orgb6f425c">
+</div>
+</div>
+<div id="outline-container-org690cadd" class="outline-4">
+<h4 id="org690cadd"><a id="ID-becb4f3f-6b59-412c-b1f9-fa123bc06953"></a>Software Development</h4>
+<div class="outline-text-4" id="text-org690cadd">
+</div>
+</div>
+<div id="outline-container-org22e54b2" class="outline-4">
+<h4 id="org22e54b2"><a id="ID-af8ecbdf-8ad9-4fcb-8de5-3548f9ea4caf"></a>Reverse Engineering</h4>
+<div class="outline-text-4" id="text-org22e54b2">
+</div>
+</div>
+<div id="outline-container-orgc3b5d79" class="outline-4">
+<h4 id="orgc3b5d79"><a id="ID-b1ac779d-c6c4-4428-8764-5c5aa4dbbd38"></a>Psychology &amp; Leadership</h4>
+<div class="outline-text-4" id="text-orgc3b5d79">
+</div>
+</div>
+<div id="outline-container-org769fb96" class="outline-4">
+<h4 id="org769fb96"><a id="ID-82debf55-baf3-47cc-b646-79c6bbc1504b"></a>70s Prog Rock and beyond</h4>
+<div class="outline-text-4" id="text-org769fb96">
+</div>
+</div>
+<div id="outline-container-orgacabfeb" class="outline-4">
+<h4 id="orgacabfeb"><a id="ID-374f8a8d-021b-44c7-8dca-9209a45459a1"></a>Top 3 endurance sports</h4>
+<div class="outline-text-4" id="text-orgacabfeb">
+</div>
+</div>
+</div>
+<div id="outline-container-org819e796" class="outline-2 courses">
+<h2 id="org819e796"><a id="ID-d712bd9d-8fd3-434d-8ec4-f661dce850d5"></a>Courses</h2>
+<div class="outline-text-2" id="text-org819e796">
+</div>
+<div id="outline-container-orga149fbe" class="outline-4">
+<h4 id="orga149fbe"><a id="ID-6bd5cc32-d856-4e10-b45a-7472388ea752"></a>RedHat • OpenShift Administration</h4>
+<div class="outline-text-4" id="text-orga149fbe">
+</div>
+</div>
+<div id="outline-container-org315f93e" class="outline-4">
+<h4 id="org315f93e"><a id="ID-04477d78-5c94-40da-9b6d-b43c239263fe"></a>CNCF   • Kubernetes Administrator</h4>
+<div class="outline-text-4" id="text-org315f93e">
+</div>
+</div>
+<div id="outline-container-org7e6e2f7" class="outline-4">
+<h4 id="org7e6e2f7"><a id="ID-12d93fdf-14b8-41bd-91a4-fc140cbbe0fe"></a>CNCF   • Kubernetes Application Developer</h4>
+<div class="outline-text-4" id="text-org7e6e2f7">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

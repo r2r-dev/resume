@@ -1,0 +1,10 @@
+#+OPTIONS: toc:nil num:nil title:nil todo:nil creator:nil tags:nil html-postamble:nil HTML_DOCTYPE:html5
+#+CREATOR: Artur Stachecki
+#+KEYWORDS: r-tur, stachecki, artur stachecki, build-eng, devops, bazel, nix, emacs.
+#+DESCRIPTION: a personal page for Artur Stachecki - jack of all trades, quite good at some. entropic neutral.
+#+HTML_CONTAINER_CLASS: article
+#+HTML_HEAD_EXTRA: <link rel="shortcut icon" href="https://r-tur.pro/favicon.ico" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700,500,400,300|Roboto:700,500,400,300" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="./static/resume.css" />

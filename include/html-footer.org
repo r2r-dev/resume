@@ -1,0 +1,7 @@
+* DONE Footer
+  CLOSED: [2017-04-04 Tue 09:09]
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: footer
+  :ID:       d86bc381-22bb-4a98-bd21-15afc2bfd6c0
+  :END:
+  #+HTML: <br style="clear: left;" ></section></div>
