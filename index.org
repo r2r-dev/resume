@@ -13,7 +13,7 @@
    :HTML_CONTAINER_CLASS: photo
    :ID:       85219053-b7f6-468a-8c4d-8cff71c0e511
    :END:
-** contact@stachecki.me
+** hire@stachecki.me
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: email
    :ID:       3e6727b1-1c2c-43bd-bcd2-9dc1f163d8b3
@@ -43,12 +43,23 @@
   :HTML_CONTAINER_CLASS: experience
   :ID:       4e730dae-a8b1-4887-b9b3-0f8e9a584989
   :END:
+** DONE Chief IT Developer - Nordea                              :bazel:nix:k8s:gitops:
+   CLOSED: [2020-03-03 Tue 12:07]
+   :PROPERTIES:
+   :ID:       b0191cfc-079e-4067-ad80-beaa49482d65
+   :END:
+*** Dec 2019 - Present • 3 mos 
+    :PROPERTIES:
+    :ID:       7763874e-a7b1-48b4-83ce-0bc8af74d989
+    :END:
+    + Successfully developed *event-driven*, Prow-alike *workflow system* allowing engineering teams to coordinate workloads using pull request comments using *Argo*, *Argo Events*, *Nix*, *Bazel*, *CUE*
+    + Started department-wide process of migration from *OpenShift* to *Docker EE*, including development of *Service Catalogue*
 ** DONE Expert IT Developer - Nordea                              :bazel:nix:k8s:gitops:
    CLOSED: [2017-04-12 Wed 12:07]
    :PROPERTIES:
    :ID:       b0191cfc-079e-4067-ad80-beaa49482d64
    :END:
-*** Aug 2017 - Present • 1 yr 10 mos 
+*** Aug 2017 - Dec 2019 • 2 yr 4 mos 
     :PROPERTIES:
     :ID:       7763874e-a7b1-48b4-83ce-0bc8af74d989
     :END:
@@ -58,7 +69,7 @@
     + Designed processes and created ecosystem for reproducible, *microservices* application development, testing, deployment, continuous integration using *Bazel*, *Kubernetes*, *Nix*, *jsonnet*, *Argo*, *sops*, *gitops*, *monorepo*, *distroless containers*, *BitBucket*
     + Researched & Developed tools for Engineers to aid day-to-day work in restricted (network and policy-wise) corporate environment.
     + Successfully rolled out fully reproducible development environments for engineers using *nix-shell*, customized *NixOS* distribution, offline *NixOS* installer and containerized *static nix* for cluster deployments.
-    + Conducted, trainings and workshops for engineers on topics related to *containerization*, *container platforms*, *build engineering*, *release engineering*, *programmable infrastructure*.
+    + Conducted trainings and workshops for engineers on topics related to *containerization*, *container platforms*, *build engineering*, *release engineering*, *programmable infrastructure*.
     + Developed a framework for reproducible training environments based on *NixOS*, *IPXE*, *Jupyter*.
     + Provided tooling and training enabling teams to conduct build & release activities without DevOps engineers.
     + Continuously involved myself in promotion of DevOps culture which played significant role in *development of self-sustainable, cross-functional teams* and individuals.
@@ -151,6 +162,11 @@
   :HTML_CONTAINER_CLASS: percent-60
   :ID:       98edad10-cfd0-4f83-b601-367cccc7eb91
   :END:
+*** Haskell
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-20
+  :ID:       98edad10-cfd0-4f83-b601-367cccc7eb91
+  :END:
 *** Bash
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-80
@@ -187,7 +203,7 @@
   :END:
 *** Nix/NixOS
   :PROPERTIES:
-  :HTML_CONTAINER_CLASS: percent-40
+  :HTML_CONTAINER_CLASS: percent-60
   :ID:       cb30ff3f-e35e-4f3a-8a76-e76cfe7aa1a8
   :END:
 * DONE Languages
