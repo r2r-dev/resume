@@ -58,6 +58,8 @@ flycheck_*.el
 # Icon must end with two \r
 Icon
 
+# Backups
+*.bak
 
 # Thumbnails
 ._*
