@@ -28,6 +28,11 @@
    :HTML_CONTAINER_CLASS: github
    :ID:       8f6a69c3-8d20-49bc-a9fc-10424bb6101a
    :END:
+** linkedin.com/in/artur-stachecki
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: web
+   :ID:       8f6a69c3-8d20-49bc-a9fc-10424bb6101b
+   :END:
 * Experience
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: experience

@@ -362,6 +362,7 @@ h2 {
 .contact .email::before,
 .contact .phone::before,
 .contact .web::before,
+.contact .linkedin::before,
 .contact .github::before {
   font-family: FontAwesome;
   font-weight: normal;
