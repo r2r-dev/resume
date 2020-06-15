@@ -14,6 +14,6 @@ in pkgs.stdenv.mkDerivation {
     mv resume.pdf resume.pdf.bak
     mv index.html index.html.bak
     emacs -Q --script ${./org-export.el} -f export-index-to-html;
-    wkhtmltopdf index.html resume.pdf
+    wkhtmltopdf --image-dpi 96 index.html resume.pdf
   '';
 }

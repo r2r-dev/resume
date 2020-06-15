@@ -1,4 +1,4 @@
-#+TITLE: Artur Stachecki
+  #+TITLE: Artur Stachecki
 #+TAGS: @devops @nix @bazel @k8s @buildeng 
 #+SETUPFILE: include/html.conf.org
 #+INCLUDE: include/html-header.org
@@ -13,30 +13,20 @@
    :HTML_CONTAINER_CLASS: photo
    :ID:       85219053-b7f6-468a-8c4d-8cff71c0e511
    :END:
-** hire@stachecki.me
+** hire@r2r.sh
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: email
    :ID:       3e6727b1-1c2c-43bd-bcd2-9dc1f163d8b3
    :END:
-** stachecki.me
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: web
-   :ID:       1d3f6db8-935a-4611-86b3-f9ebad319c86
-   :END:
-** r-tur.pro
+** r2r.sh
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: web
    :ID:       e70a091b-c7b5-4a7a-927d-14ab8d0cb938
    :END:
-** github.com/astachecki
+** github.com/r2r-dev
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: github
    :ID:       8f6a69c3-8d20-49bc-a9fc-10424bb6101a
-   :END:
-** github.com/r-tr
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: github
-   :ID:       031fbf25-9144-42da-a64b-cbb18a1b9ab7
    :END:
 * Experience
   :PROPERTIES:
@@ -48,12 +38,15 @@
    :PROPERTIES:
    :ID:       b0191cfc-079e-4067-ad80-beaa49482d65
    :END:
-*** Dec 2019 - Present • 3 mos 
+*** Dec 2019 - Present • 7 mos 
     :PROPERTIES:
     :ID:       7763874e-a7b1-48b4-83ce-0bc8af74d989
     :END:
     + Successfully developed *event-driven*, Prow-alike *workflow system* allowing engineering teams to coordinate workloads using pull request comments using *Argo*, *Argo Events*, *Nix*, *Bazel*, *CUE*
-    + Started department-wide process of migration from *OpenShift* to *Docker EE*, including development of *Service Catalogue*
+    + Led department-wide process of migration from *OpenShift* to *Docker EE*, including development of *Service Catalogue*
+    + Reverse engineered *Hyper-V*, *vpnkit*, *linuxkit*, *Docker Desktop* and developed *HVKit*: a suite of Hyper-V extensions, which enabled high performance network access, slirp proxy, shared filesystem, Windows-Linux IPC. This solution adresses Hyper-V, WSL, WSL2 shortcomings. Technologies used: *Hyper-V*, *GO*, *C*, *PowerShell*, *MSYS2*, *socket engineering*.
+    + Conducted training sessions for development teams on ways of working and engineering culture, based on best practices from open source communities
+    + (ongoing) leading onboarding and security governance process for *IBM CP4D* solution using *VMWare ESXi*, *CoreOS*, *OpenShift*, *Terraform*, *Ansible*, *CIS Benchmark*.
 ** DONE Expert IT Developer - Nordea                              :bazel:nix:k8s:gitops:
    CLOSED: [2017-04-12 Wed 12:07]
    :PROPERTIES:
@@ -157,6 +150,11 @@
   :HTML_CONTAINER_CLASS: percent-40
   :ID:       540cffd5-46c2-4204-98d0-8714b418647e
   :END:
+*** GO
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: percent-40
+  :ID:       540cffd5-46c2-4204-98d0-8714b418647e
+  :END:
 *** Python
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: percent-60
@@ -237,11 +235,15 @@
     :PROPERTIES:
     :ID:       814464c7-891e-4975-b050-1c2aec6c818c
     :END:
-*** Software Development
+*** Reproducible Software Development
     :PROPERTIES:
     :ID:       becb4f3f-6b59-412c-b1f9-fa123bc06953
     :END:
 *** Reverse Engineering
+    :PROPERTIES:
+    :ID:       af8ecbdf-8ad9-4fcb-8de5-3548f9ea4caf
+    :END:
+*** Knowledge Modelling
     :PROPERTIES:
     :ID:       af8ecbdf-8ad9-4fcb-8de5-3548f9ea4caf
     :END:
