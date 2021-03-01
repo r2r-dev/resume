@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/r2r_dev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://r2r.sh
+  * I am r2r_dev (https://keybase.io/r2r_dev) on keybase.
+  * I have a public key ASB0umpHcykU7yGOqEQX59Izy7q7yDBWLEB0_Fgi39iauwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012074ba6a47732914ef218ea84417e7d233cbbabbc830562c4074fc5822dfd89abb0a",
+      "host": "keybase.io",
+      "kid": "012074ba6a47732914ef218ea84417e7d233cbbabbc830562c4074fc5822dfd89abb0a",
+      "uid": "7c7b4827aaee1b945ed5be9858396619",
+      "username": "r2r_dev"
+    },
+    "merkle_root": {
+      "ctime": 1614612901,
+      "hash": "029e0d4e2d9b3c40cd11b5009c2f4e5f2c2081ab3c4176a87745514bc76ff77ee99d49f73c5b188fe72b582c0520616093bb14627bd5917bdcbcaacfc2881b93",
+      "hash_meta": "f518fad8b08d899659f66dba5ee967a9779f5f43bd142eef88f478e02b67d78b",
+      "seqno": 19258689
+    },
+    "service": {
+      "entropy": "G0uWxKbkLua0gUsm3KVxN33m",
+      "hostname": "r2r.sh",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1614612948,
+  "expire_in": 504576000,
+  "prev": "61976eeca35e85c5b40978ecc96249988f41a8cfe7b3e3b06979a1ce0cecbb5f",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdLpqR3MpFO8hjqhEF+fSM8u6u8gwVixAdPxYIt/YmrsKp3BheWxvYWTESpcCBcQgYZdu7KNehcW0CXjsyWJJmI9BqM/ns+OwaXmhzgzsu1/EIHJm3Cj+M1WZNcV6wCjcUsDOdrOQCYiSXnTfDPWm56WrAgHCo3NpZ8RATjUcdQnRwubq5TmOMuONdYEV9z92f+TNKPmBf1RfEzPiFOpT0CBCpEnDmACm49t0qtNlgl2xToCT99k5dkGiBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBtLSa/E7dXdoG5qvJudSu56D+y+ZWt6Nood1CzuE7Kho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/r2r_dev
+
+==================================================================
