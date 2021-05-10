@@ -38,17 +38,28 @@
   :HTML_CONTAINER_CLASS: experience
   :ID:       4e730dae-a8b1-4887-b9b3-0f8e9a584989
   :END:
+** Release Engineer (SRE) - SwissBorg                            :terraform:aws:helm:argocd:
+   :PROPERTIES:
+   :ID:       b0191cfc-079e-4067-ad80-beaa49482da6
+   :END:
+*** Mar 2021 
+    :PROPERTIES:
+    :ID:       7763874e-a7b1-48b4-83ce-0bc8af74d919
+    :END:
+    + (ongoing) Defining and implementing a roadmap for release process improvement
+    + (ongoing) Development and maintenance of current tech stack based on *EKS*, *AWS*, *Terraform*, *ArgoCD*, *Jenkins*, *sbt*, *gradle*
+    + (ongoing) Acting as L2 support, ensuring platform stability
 ** DONE Senior DevOps Engineer - Nike                            :terraform:aws:go:nifi:
    CLOSED: [2020-12-18 Fri 12:07]
    :PROPERTIES:
    :ID:       b0191cfc-079e-4067-ad80-beaa49482d66
    :END:
-*** Aug 2020 • 5 mos 
+*** Aug 2020 - Feb 2021 • 5 mos 
     :PROPERTIES:
     :ID:       7763874e-a7b1-48b4-83ce-0bc8af74d990
     :END:
-    + (ongoing) Development and maintenance of self-service Apache NiFi platform based on *EKS*, *AWS* using *Terraform*, *Helm*, *Prometheus*, *K8S Operators*, *Maven*, *Jenkins*
-    + (ongoing) Working directly with customers as a L1 support
+    + Developed and maintained self-service Apache NiFi platform based on *EKS*, *AWS* using *Terraform*, *Helm*, *Prometheus*, *K8S Operators*, *Maven*, *Jenkins*
+    + Worked directly with customers as a L1 support
 ** DONE Chief IT Developer - Nordea                              :bazel:nix:k8s:gitops:
    CLOSED: [2020-03-03 Tue 12:07]
    :PROPERTIES:
